@@ -8,3 +8,12 @@ newrelic_ssl_ca_path: False
 newrelic_pidfile: /var/run/newrelic/nrsysmond.pid
 newrelic_collector_host: collector.newrelic.com
 newrelic_timeout: 30
+
+#  A dictionary of label names and values for categories 
+#  that will be applied to the data sent from this agent.
+#  An example 
+#  newrelic_labels:
+#                  Environment   : Dev
+#                  Data Center   : Primary
+# Default is no label
+newrelic_labels: False
